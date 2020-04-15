@@ -1,0 +1,53 @@
+body{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+
+.jumbotron{
+	background-image: url(images/counterstrike.jpg);	
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: white;
+	opacity: 0.9;
+}
+
+.btn{
+	margin: 10px;
+}
+
+div form fieldset p label{
+	width: 200px;
+	display: inline-block;
+}
+
+input[type=submit]{
+	line-height: 20px;
+}
+
+table{
+	border: 1px solid black;
+}
+
+td{
+	line-height: 15px;
+}
+
+td, th{
+	padding: 5px;
+	text-align: center;
+}
+
+tbody tr:nth-child(odd) {
+   background-color: #ccc;
+}
+
+input{
+	display: inline-block;
+	float: left;
+}
+
+.lead{
+	font-size: 25px;
+}
+
